@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>Photofairy</title>
+    <title>Mutation</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -30,7 +30,7 @@
                 Query
             </a>
         </li>
-        <li  title="Mutation">
+        <li class="slds-is-active" title="Mutation">
             <a href="mutation.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 Mutation
             </a>
@@ -135,7 +135,7 @@
                 LeasingData
             </a>
         </li>
-        <li class="slds-is-active" title="Photofairy">
+        <li  title="Photofairy">
             <a href="photofairy.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 Photofairy
             </a>
@@ -296,8 +296,9 @@
     </div>
     <div class="container">
         <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
-        <h1 class="slds-text-heading--large">Photofairy</h1>
-        <div class="slds-text-body--regular"></div>
+        <h1 class="slds-text-heading--large">Mutation</h1>
+        <div class="slds-text-body--regular"><p>Alle möglichen Änderungen über die API</p>
+</div>
     </div>
 </section>
 <section>
@@ -308,7 +309,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">Photofairy</span> {</li><li></li><li><span class="tab"><span class="meta">exist</span>: <a class="support type" href="boolean.doc.html">Boolean</a> </span></li><li></li><li><span class="tab"><span class="meta">images</span>: [<a class="support type" href="images.doc.html">Images</a>] </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">Mutation</span> {</li><li></li><li><span class="tab"><span class="comment line"># Arguments</span></span></li><li><span class="tab"><span class="comment line">#   <strong>data</strong>: [<strong>Not documented</strong>]</span></span></li><li><span class="tab"><span class="meta">ProvisionStep</span>(<span class="meta">data</span>: <a class="support type" href="provisionstepinput.doc.html">ProvisionStepInput</a>): <a class="support type" href="provisionstepapproval.doc.html">ProvisionStepApproval</a> </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
@@ -319,7 +320,7 @@
             </a>
             Require by
         </h2>
-        <ul class="require-by"><li><a href="vehicle.doc.html" title="Vehicle - ">Vehicle<em>null</em></a><li></ul>
+        <div class="require-by anyone">This element is not required by anyone</div>
     </div>
 </section>
 <footer>
