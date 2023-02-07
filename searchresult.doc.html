@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>Float</title>
+    <title>SearchResult</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -40,7 +40,7 @@
                 Boolean
             </a>
         </li>
-        <li class="slds-is-active" title="Float">
+        <li  title="Float">
             <a href="float.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 Float
             </a>
@@ -85,7 +85,7 @@
                 Photofairy
             </a>
         </li>
-        <li  title="SearchResult">
+        <li class="slds-is-active" title="SearchResult">
             <a href="searchresult.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 SearchResult
             </a>
@@ -170,10 +170,9 @@
         </div>
     </div>
     <div class="container">
-        <p class="slds-text-title--caps slds-text-color--weak">SCALAR</p>
-        <h1 class="slds-text-heading--large">Float</h1>
-        <div class="slds-text-body--regular"><p>The <code>Float</code> scalar type represents signed double-precision fractional values as specified by <a href="https://en.wikipedia.org/wiki/IEEE_floating_point">IEEE 754</a>.</p>
-</div>
+        <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
+        <h1 class="slds-text-heading--large">SearchResult</h1>
+        <div class="slds-text-body--regular"></div>
     </div>
 </section>
 <section>
@@ -184,7 +183,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">scalar</span> <span class="identifier">Float</span></li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">SearchResult</span> {</li><li></li><li><span class="tab"><span class="meta">vehicles</span>: [<a class="support type" href="vehicle.doc.html">Vehicle</a>] </span></li><li></li><li><span class="tab"><span class="meta">hitsTotal</span>: <a class="support type" href="int.doc.html">Int</a> </span></li><li></li><li><span class="tab"><span class="meta">resultCount</span>: <a class="support type" href="int.doc.html">Int</a> </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
@@ -195,7 +194,7 @@
             </a>
             Require by
         </h2>
-        <ul class="require-by"><li><a href="vehicle.doc.html" title="Vehicle - ">Vehicle<em>null</em></a><li><li><a href="vehiclefull.doc.html" title="VehicleFull - ">VehicleFull<em>null</em></a><li></ul>
+        <ul class="require-by"><li><a href="query.doc.html" title="Query - Das Root-Query Element">Query<em>Das Root-Query Element</em></a><li></ul>
     </div>
 </section>
 <footer>
